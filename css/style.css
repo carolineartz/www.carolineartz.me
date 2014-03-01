@@ -1,0 +1,99 @@
+@import "/foundation-icons/foundation-icons.css";
+
+
+
+body,p {
+	font-family:"proxima-nova-n3","proxima-nova","Open Sans",sans-serif;
+	font-style:normal;
+	font-weight:300;
+}
+
+/************************************/
+/* Top Bar */
+/************************************/
+
+
+.top-bar h1,.top-bar .name h1 a,.top-bar-section ul li > a,.top-bar-section .dropdown li a {
+	font-family:"proxima-nova-n3","proxima-nova","Open Sans",sans-serif;
+	font-style:normal;
+	font-weight:300;
+}
+
+.top-bar-section ul li > a {
+	font-size:15px;
+}
+
+.top-bar,.top-bar-section ul li > a,.top-bar-section li a:not(.button),.top-bar-section ul,.contain-to-grid {
+	background-color:#44505B;
+}
+
+.top-bar-section > ul > .divider,.top-bar-section > ul > [role="separator"] {
+	border-left:0;
+	border-right:0;
+}
+
+/************************************/
+/* Headings */
+/************************************/
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:'Gilda Display',serif;
+	font-style:normal;
+	font-weight:400;
+}
+
+a.list-heading {
+	font-family:'Oswald',sans-serif;
+	font-style:normal;
+	font-weight:400;
+	font-size:18px;
+	text-transform:none;
+	text-decoration:none;
+	letter-spacing:.019em;
+	word-spacing:.072em;
+}
+
+h1 {
+	font-size:64px;
+}
+
+h2 {
+	font-size:48px;
+}
+
+h2#main-title {
+	margin-top:.6em;
+}
+
+/************************************/
+/* Buttons */
+/************************************/
+
+button,.button {
+	font-weight:400;
+}
+
+button p,button p a,.button {
+	font-family:'Oswald',sans-serif;
+	letter-spacing:.019em;
+	word-spacing:.072em;
+}
+
+
+/*************** Under Construction ********************/
+
+.svg-container {
+	max-width:100%;
+}
+
+.construction-main-banner {
+	width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+
+	#main-title-center {
+		margin:0 40px;
+	}
+}
